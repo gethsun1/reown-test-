@@ -10,7 +10,7 @@ import React from 'react';
 const queryClient = new QueryClient();
 
 // 2. Your Reown Cloud Project ID
-const projectId = 'YOUR_PROJECT_ID'; // Replace with your actual project ID
+const projectId = '3268c03bffd8e52c1b26452048d2ce4c';
 
 // 3. Optional metadata for verification and branding
 const metadata = {
