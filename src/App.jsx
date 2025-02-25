@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import { AppKitProvider } from './config';
-import ConnectButton from './ConnectButton'; // We'll create this next
+import ConnectButton from './ConnectButton';
 
 function App() {
   return (
