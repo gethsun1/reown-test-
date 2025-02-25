@@ -16,8 +16,8 @@ const projectId = '3268c03bffd8e52c1b26452048d2ce4c';
 const metadata = {
   name: 'My Dapp',
   description: 'A Blockchain Table Banking Savings Dapp',
-  url: 'https://chama.com', // Ensure this matches your domain
-  icons: ['https://mydapp.com/icon.png'],
+  url: 'https://chama.com', 
+  icons: ['https://ibb.co/gZbByZLZ'],
 };
 
 // 4. Define supported networks
