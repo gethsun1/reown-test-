@@ -1,7 +1,7 @@
 // src/config.jsx
 import { createAppKit } from '@reown/appkit/react';
 import { WagmiProvider } from 'wagmi';
-import { testnet, sepolia, scroll } from '@reown/appkit/networks';
+import { testnet, scroll } from '@reown/appkit/networks';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi';
 import React from 'react';
@@ -21,7 +21,7 @@ const metadata = {
 };
 
 // 4. Define supported networks
-const networks = [testnet, sepolia, scroll];
+const networks = [testnet, scroll];
 
 // 5. Create a Wagmi adapter
 const wagmiAdapter = new WagmiAdapter({
