@@ -27,8 +27,24 @@ const TestimonialsSection = () => {
       </Typography>
       <Box sx={{ display: 'flex', overflowX: 'auto', py: 2, px: 2 }}>
         {testimonials.map((item) => (
-          <Card key={item.id} sx={{ minWidth: 300, mx: 2 }}>
-            <CardMedia component="img" height="140" image={item.image} alt="Community" />
+          <Card
+            key={item.id}
+            sx={{
+              minWidth: 300,
+              mx: 2,
+              transition: 'transform 0.3s, box-shadow 0.3s',
+              '&:hover': {
+                transform: 'scale(1.05)',
+                boxShadow: 6,
+              },
+            }}
+          >
+            <CardMedia
+              component="img"
+              height="140"
+              image={item.image}
+              alt="Community"
+            />
             <CardContent>
               <Typography variant="body1" gutterBottom>
                 {item.story}

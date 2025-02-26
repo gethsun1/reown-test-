@@ -4,7 +4,15 @@ import { Box, Container, Typography, Link } from '@mui/material';
 
 const Footer = () => {
   return (
-    <Box sx={{ backgroundColor: 'primary.main', color: 'secondary.main', py: 3, mt: 5 }}>
+    <Box
+      component="footer"
+      sx={{
+        backgroundColor: 'primary.main',
+        color: 'secondary.main',
+        py: 3,
+        mt: 'auto', 
+      }}
+    >
       <Container maxWidth="lg">
         <Typography variant="body2" align="center">
           &copy; {new Date().getFullYear()} Chama DApp. All rights reserved.

@@ -5,7 +5,7 @@ import HeroSection from './HeroSection';
 import TestimonialsSection from './TestimonialsSection';
 import BenefitsSection from './BenefitsSection';
 import StatsSection from './StatsSection';
-import Footer from './Footer';
+
 
 const LandingPage = () => {
   return (
@@ -15,7 +15,6 @@ const LandingPage = () => {
       <TestimonialsSection />
       <BenefitsSection />
       <StatsSection />
-      <Footer />
     </div>
   );
 };
